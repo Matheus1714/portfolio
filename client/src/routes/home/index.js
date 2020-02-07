@@ -6,7 +6,7 @@ export default class RoutesAbout extends React.Component {
     render(){
         return(
             <Fragment>
-                <Route path="/" component={HomeContainer} />
+                <Route path="/home" component={HomeContainer} />
             </Fragment>
         )
     }
