@@ -29,6 +29,8 @@ import ResearchRoutes from './routes/research/index';
 import ProjectRoutes from './routes/project/index';
 import EducationRoutes from './routes/education/index';
 
+import Profile from './asserts/profile.jpeg'
+
 const drawerWidth = 240;
 
 const useStyles = makeStyles(theme => ({
@@ -132,7 +134,7 @@ export default function App() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Matheus Mota
+            Portfolio
           </Typography>
         </Toolbar>
       </AppBar>
@@ -151,7 +153,7 @@ export default function App() {
       >
         <div className={classes.toolbar}>
             
-            <Avatar alt="Matheus Mota" src="" className={classes.large} />
+            <Avatar alt="Matheus Mota" src={Profile} className={classes.large} />
             
             <IconButton onClick={handleDrawerClose}>
                 {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
@@ -160,7 +162,7 @@ export default function App() {
         <Divider />
         <List>
 
-          <Link to="/" style={{color:'black', textDecoration:'none'}} >
+          <Link to="/home" style={{color:'black', textDecoration:'none'}} >
             <ListItem button key='Home'>
               <ListItemIcon><HomeIcon /></ListItemIcon>  
               <ListItemText primary='Home' />
@@ -201,17 +203,15 @@ export default function App() {
         <div className={classes.toolbar} />
         <Fragment>
           
-            
             <HomeRoutes />
             <AboutRoutes />
             <EducationRoutes />
             <ProjectRoutes />
             <ResearchRoutes />
             
-          
         </Fragment>
-      </main>
-    </div>
+        </main>
+      </div>
     </Router>
   );
 }
