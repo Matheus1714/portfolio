@@ -1,11 +1,15 @@
 import React from 'react';
+import { 
+  BrowserRouter as Router
+} from 'react-router-dom';
+import ProfileRoutes from './routes/profile/index';
 
-function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+export default class App extends React.Component {
+  render(){
+    return(
+      <Router>
+        <ProfileRoutes />
+      </Router>
+    )
+  }
 }
-
-export default App;
