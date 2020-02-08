@@ -16,13 +16,15 @@ export default function Research() {
         <div className={classes.root}>
             <div>
                 <h1>Research</h1>
-                <div style={{display:'flex'}}>
-                    <NetworkWifiIcon/>
-                    <h4 style={{marginTop:4, marginLeft:10}}>Network Encryption</h4>
-                </div>
-                <div style={{display:'flex'}}>
-                    <InsertChartIcon/>
-                    <h4 style={{marginTop:4, marginLeft: 10}}>Artificial Intelligence</h4>
+                <div style={{color: 'gray'}}>
+                    <div style={{display:'flex'}}>
+                        <NetworkWifiIcon style={{color: 'black'}} />
+                        <h4 style={{marginTop:4, marginLeft:10}}>Network Encryption</h4>
+                    </div>
+                    <div style={{display:'flex'}}>
+                        <InsertChartIcon style={{color: 'black'}} />
+                        <h4 style={{marginTop:4, marginLeft: 10}}>Artificial Intelligence</h4>
+                    </div>
                 </div>
             </div>
         </div>
