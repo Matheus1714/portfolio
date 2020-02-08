@@ -11,11 +11,7 @@ const useStyles = makeStyles( theme => ({
     },
     textAdress: {
         color: 'gray',
-        fontFamily: 'Times New Roman'
     },
-    textDescription: {
-        fontFamily: 'sans-serif',
-    }
 }))
 
 export default function Description(){
@@ -27,7 +23,7 @@ export default function Description(){
                 <h3>Rua H8B, 210 · 12228-452 · São José dos Campos/SP · Brazil</h3>
                 <h3>+55 (85) 99720-0622 · <a href="https://accounts.google.com/">matheussilvamartins1714@gmail.com</a></h3>
 
-                <h3 className={classes.textDescription}>
+                <h3>
                     I am a graduate student of
                     Aerospace Engineering. I made company
                     junior for 2 years at ITA Júnior as a web developer. I've used
