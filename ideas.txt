@@ -1,0 +1,7 @@
+Eu sou estudante de Graduação de
+Engenharia Aeroespacial. Fiz empresa
+júnior por 2 anos na ITA Júnior como desenvolvedor web. Já utilizei
+as linguagens Golang, Flask, NodeJS, Django.
+Participei de muitos eventos de empreendedorismo, como o ENEJ(Encontro Nacional de Empresasa Juniores) em 2019.
+Participei de competições, Hackathon, como o da Code in Quero proporcionado pela QueroEducarion.
+Fiz estágio na Quero educação desenvolvendo aplicativo utilizando React Native.
